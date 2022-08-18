@@ -1,0 +1,1087 @@
+
+@media all and (min-width:1300px){
+    .container{
+        max-width: 1240px;
+    }
+}
+@media all and (min-width:1400px){
+    .container{
+        max-width: 1340px;
+    }
+}
+@media all and (min-width:1500px){
+    .container{
+        max-width: 1440px;
+    }
+}
+@media all and (min-width:1600px){
+    .container{
+        max-width: 1540px;
+    }
+}
+
+@media all and (min-width:1700px){
+    .container{
+        max-width: 1640px;
+    }
+}
+
+@media all and (min-width:1900px){
+    .review_and_offer_area_design::after {
+        position: absolute;
+        content: "";
+        background: #08446D;
+        height: 100%;
+        width: 39.56%;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+
+/* all Max-width responsive  */
+@media all and (max-width:1800px){
+    .tours_v_b a {
+        width: 620px;
+        height: 166px;
+        font-size: 46px;
+    }
+}
+@media all and (max-width:1700px){
+    .left_menu ul li a {
+        padding: 18px 9px;
+        margin: 0 5px;
+    }
+    .right_menu ul li a {
+        margin-left: 29px;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+    }
+    .review_and_offer_area_design::after {
+        height: 100%;
+        width: 40.8%;
+    }
+
+    .section_title h2 {
+        font-size: 46px;
+    }
+    .about_content p {
+        font-size: 24px;
+        width: 100%;
+    }
+    .tours_v_b a {
+        width: 507px;
+        height: 129px;
+        font-size: 41px;
+    }
+    .single_free ul li {
+        font-size: 20px;
+        padding-left: 25px;
+    }
+    .single_free h5 {
+        font-size: 21px;
+    }
+}
+
+@media all and (max-width:1600px){
+    .left_menu ul li a {
+        padding: 17px 7px;
+        margin: 0 5px;
+        font-size: 15px;
+    }
+    .right_menu ul li a img {
+        max-height: 20px;
+    }
+    .right_menu ul li a {
+        margin-left: 23px;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+    }
+    .review_div {
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+    .about_content p {
+        font-size: 22px;
+    }
+    .f_form_in {
+        width: 360px;
+        height: 55px;
+        background: #373A33;
+        position: relative;
+        margin-left: 0;
+        border-radius: 10px;
+        margin-top: 29px;
+    }
+    .f_social ul li:first-child {
+        margin-left: 0;
+    }
+    .all_f_down p a {
+        font-size: 14px;
+    }
+    .g_title h1 {
+        font-size: 94px;
+    }
+    .group_event_specil {
+        padding-top: 141px;
+        padding-bottom: 110px;
+        overflow: hidden;
+    }
+    .g_spe_title h2 {
+        font-size: 58px;
+    }
+    .even_title {
+        padding-bottom: 98px;
+    }
+    .even_single h2 {
+        font-size: 42px;
+        padding-top: 41px;
+        padding-bottom: 43px;
+    }
+    .even_single p, .even_single li {
+        font-size: 21px;
+    }
+    .touch_title h2 {
+        font-size: 51px;
+    }
+    .left_get h3 {
+        font-size: 34px;
+    }
+    .r_get_sin h2 {
+        font-size: 33px;
+    }
+    .r_get_sin h2 img {
+        height: 35px;
+    }
+    .r_get_sin h2 span {
+        width: 58px;
+        display: inline-block;
+    }
+    .ar_left_t_single p {
+        font-size: 17px;
+    }
+    .ar_t_top p {
+        font-size: 21px;
+        margin-top: 33px;
+    }
+    .ar_t_order_title {
+        padding: 78px 0;
+    }
+    .ar_right_t_single p {
+        font-size: 18px;
+    }
+    .ar_right_t_single h2 a {
+        font-size: 29px;
+    }
+    .ar_right_t_single p a {
+        font-size: 18px;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+    }
+    .div_jamaica h2 {
+        font-size: 27px;
+        margin-bottom: 64px;
+    }
+    .div_jamaica h3 {
+        font-size: 30px;
+        margin-bottom: 57px;
+    }
+    .ocen_content p {
+        font-size: 21px;
+    }
+    .ocen_all_items h4, .ocen_all_items li {
+        font-size: 20px;
+        color: #000000;
+    }
+    .ocen_all_items ul li {
+        padding-left: 19px;
+    }
+    .avibility_date_even ul li a {
+        font-size: 20px;
+        font-family: Roboto;
+    }
+}
+
+
+@media all and (max-width:1500px){
+    .left_menu ul li a {
+        padding: 10px 7px;
+        margin: 0 5px;
+        font-size: 14px;
+    }
+    .slide_indicator ul li img {
+        width: 32px;
+    }
+    .trip_button a {
+        width: 345px;
+        height: 77px;
+    }
+    .social_li ul li a {
+        font-size: 21px;
+        padding: 10px 0;
+    }
+    .playing_area_design {
+        padding: 244px 0;
+        overflow: hidden;
+    }
+    .all_ac_car .owl-item:nth-child(2n+1) {
+        margin-top: 220px;
+    }
+    .ac_car_single h3 {
+        font-size: 26px;
+    }
+    .left_get ul li a {
+        font-size: 22px;
+    }
+    .link_sngle ul li a {
+        font-size: 15px;
+    }
+    .all_f_down p a {
+        font-size: 13px;
+    }
+    .chukka_item_t {
+        padding-bottom: 115px;
+    }
+    .chukka_single h4 {
+        font-size: 27px;
+    }
+    .chukka_single a {
+        font-size: 21px;
+    }
+    .tours_v_b a {
+        width: 430px;
+        height: 105px;
+        font-size: 35px;
+    }
+    .choice_sin {
+        display: block;
+    }
+    .ch_right {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .choice_sin img {
+        width: 100%;
+    }
+    .review_single_ar ul li {
+        font-size: 21px;
+    }
+    .review_area_design {
+        padding-top: 96px;
+        padding-bottom: 50px;
+    }
+}
+
+@media all and (max-width:1400px){
+    .left_menu ul li a {
+        padding: 10px 6px;
+        margin: 0 4px;
+        font-size: 14px;
+    }
+    .right_menu ul li a img {
+        max-height: 15px;
+    }
+    .right_menu ul li a {
+        margin-left: 18px;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+    }
+    .single_banner {
+        padding-top: 177px;
+        padding-bottom: 234px;
+        position: relative;
+        z-index: 1;
+    }
+    .about_content p {
+        font-size: 21px;
+        width: 100%;
+        line-height: inherit;
+    }
+    
+    .single_avan h3 {
+        font-size: 29px;
+    }
+    .country_name span {
+        font-size: 30px;
+    }
+    .g_title h1 {
+        font-size: 62px;
+    }
+    .group_event_specil {
+        padding-top: 106px;
+        padding-bottom: 89px;
+        overflow: hidden;
+    }
+    .g_spe_title h2 {
+        font-size: 51px;
+    }
+    .g_spe_title p {
+        font-size: 22px;
+        margin-top: 19px;
+    }
+    .sp_even {
+        padding-top: 56px;
+    }
+    .even_title {
+        padding-bottom: 58px;
+    }
+    .even_single h2 {
+        font-size: 38px;
+        padding-top: 36px;
+        padding-bottom: 26px;
+    }
+    .even_single p, .even_single li {
+        font-size: 20px;
+    }
+    .even_single p {
+        margin-bottom: 29px;
+    }
+    .chukka_single h4 {
+        font-size: 26px;
+    }
+    .chukka_single i {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .avibility_date_even ul li a {
+        font-size: 18px;
+        font-family: Roboto;
+    }
+    .avibility_date_even h2 {
+        font-size: 24px;
+        color: #000;
+        font-family: Roboto;
+        margin-bottom: 22px;
+    }
+    
+
+}
+
+@media all and (max-width:1299px){
+    .left_menu {
+        display: none;
+    }
+    .header_all {
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+    }
+    .right_menu ul li a img {
+        max-height: 20px;
+    }
+    .right_menu ul li a {
+        margin-left: 27px;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+    }
+    .bars{
+        display: block;
+    }
+
+    
+}
+
+
+@media all and (max-width:1199px){
+    .header_area_design {
+        height: 87px;
+    }
+    .trip_button {
+        position: relative;
+        bottom: 0;
+        right: auto;
+        margin: 0 auto;
+        text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: auto;
+    }
+    .indicator_area {
+        padding-bottom: 0;
+    }
+    .prev {
+        position: absolute;
+        left: 0;
+        bottom: 23%;
+    }
+    .next {
+        position: absolute;
+        right: 0;
+        bottom: 23%;
+    }
+    .review_and_offer_area_design::after {
+        display: none;
+    }
+    .review_div {
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+    .offer_ends_area {
+        padding: 0;
+        background: #08446d;
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .section_padding {
+        padding: 68px 0;
+    }
+    .section_title h2 {
+        font-size: 40px;
+    }
+    .col-xl-3.col-md-6.mar_1 {
+        margin-top: 30px;
+    }
+    .avanture_area_design .section_title {
+        margin-bottom: 0;
+    }
+    .playing_area_design {
+        padding: 234px 0;
+    }
+    .ex_con h3 {
+        font-size: 42px;
+        color: #FFF;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .ex_con p {
+        font-size: 21px;
+    }
+    .avanture_vid img {
+        width: 93px;
+    }
+    .all_ac_car .owl-item:nth-child(2n+1) {
+        margin-top: 117px;
+    }
+    .ac_car_single h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .footer_sub {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .link_sngle.link_sngle2 {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    .all_f_down {
+        text-align: center;
+        margin-top: 42px;
+    }
+    .footer_a_link {
+        padding: 24px 0;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+    
+    .group_event_specil {
+        padding-top: 80px;
+        padding-bottom: 74px;
+        overflow: hidden;
+    }
+    .g_spe_title h2 {
+        font-size: 44px;
+    }
+    .g_spe_title p {
+        font-size: 20px;
+        margin-top: 13px;
+    }
+    .sp_even {
+        padding-top: 47px;
+    }
+    .even_title h3 {
+        font-size: 25px;
+    }
+    .even_single h2 {
+        font-size: 33px;
+        padding-top: 31px;
+        padding-bottom: 20px;
+    }
+    .even_single p, .even_single li {
+        font-size: 19px;
+    }
+    .even_single li::before {
+        position: absolute;
+        content: "";
+        width: 7px;
+        height: 7px;
+        background: #6B6B6B;
+        border-radius: 50px;
+        left: 0;
+        top: 10px;
+    }
+    .touch_title h2 {
+        font-size: 43px;
+    }
+    .left_get h3 {
+        font-size: 26px;
+    }
+    .r_get_sin h2 {
+        font-size: 28px;
+    }
+    .left_get ul li a {
+        font-size: 20px;
+    }
+    .r_get_sin p {
+        font-size: 20px;
+
+    }
+    .r_get_sin h2 img {
+        height: 27px;
+    }
+    .r_get_sin h2 span {
+        width: 46px;
+    }
+    .cukkha_top_con h4 {
+        font-size: 25px;
+    }
+    .cukkha_top_con h4 br {
+       display: none;
+    }
+    .cukkha_top_con p {
+        font-size: 21px;
+        color: #000000;
+        line-height: normal;
+        margin-top: 20px;
+    }
+    .chukka_item_t h5 {
+        font-size: 30px;
+    }
+    .chukka_item_t {
+        padding-bottom: 63px;
+    }
+    .tours_v_b a {
+        width: 301px;
+        height: 88px;
+        font-size: 25px;
+    }
+    .div_jamaica {
+        margin-top: 78px;
+    }
+    .choice_sin {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .tour_page_content_area {
+        padding-top: 75px;
+        padding-bottom: 94px;
+        overflow: hidden;
+    }
+    .review_single_ar {
+        max-width: 271px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .more_review_c {
+        padding-top: 20px;
+    }
+    .choice_all {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .choice_sin {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 23%;
+                flex: 0 0 23%;
+    }
+    .related_p h4 {
+        font-size: 20px;
+    }
+    .related_p h3 {
+        font-size: 15px;
+        color: #FFF;
+        margin: 10px 0;
+    }
+    .ocen_single_left {
+        width: 100%;
+    }
+    .g_availibity_t_con {
+        display: block;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+    }
+    .aaa {
+        width: 100%;
+    }
+    
+}
+
+
+@media all and (max-width:991px){
+    .single_banner {
+        padding-top: 126px;
+        padding-bottom: 179px;
+
+    }
+    .banner_con h1 {
+        font-size: 44px;
+        color: #FFF;
+        margin: 17px 0;
+    }
+    .trip_button a {
+        width: 313px;
+        height: 59px;
+        font-size: 20px;
+    }
+    .section_title {
+        margin-bottom: 39px;
+    }
+    .about_content p {
+        font-size: 20px;
+
+    }
+    .review_and_offer_area_design {
+        padding-bottom: 0;
+    }
+    .country_name span {
+        font-size: 24px;
+    }
+    .playing_area_design {
+        padding: 147px 0;
+    }
+    .footer_sub {
+        display: block;
+        margin-bottom: 48px;
+    }
+    .f_logo a {
+        margin-bottom: 30px !important;
+        display: inline-block;
+    }
+    .f_social ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin-top: 28px;
+    }
+    .sp_even{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+   .sp_even .col-lg-4.col-md-6 {
+        margin-bottom: 40px;
+    }
+    .sp_even .col-lg-4.col-md-6:last-child{
+        margin-bottom: 0;
+    }
+    .left_get {
+        text-align: center;
+    }
+    .left_get ul {
+        margin-top: 47px;
+    }
+    .right_get {
+        padding-top: 39px;
+        text-align: center;
+    }
+    .cukkha_top_con p br{
+        display: none;
+    }
+
+}
+
+@media all and (max-width:767px){
+    .search_form {
+        position: absolute;
+        background: #000;
+        width: 380px;
+        right: -162%;
+        top: 69px;
+        z-index: 99999;
+        padding: 18px;
+        display: none;
+    }
+    .single_banner {
+        padding-top: 102px;
+        padding-bottom: 158px;
+    }
+    .banner_con h1 {
+        font-size: 37px;
+        margin: 12px 0;
+    }
+    .banner_con a {
+        font-size: 14px;
+        border-bottom: 3px solid #7DCB19;
+    }
+    .ex_con h3 {
+        font-size: 33px;
+    }
+    .avanture_vid img {
+        width: 77px;
+    }
+    .avanture_vid h4 {
+        font-size: 24px;
+    }
+    .all_ac_car .owl-item:nth-child(2n+1) {
+        margin-top: 0;
+    }
+    .ac_car_single a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .ac_car_single a h3 {
+        margin-top: 40px;
+    }
+    .g_title h1 {
+        font-size: 50px;
+        line-height: normal;
+    }
+    .g_spe_title h2 {
+        font-size: 36px;
+    }
+    .touch_title h2 {
+        font-size: 32px;
+    }
+    .touch_title {
+        margin-bottom: 26px;
+    }
+    .left_get h3 {
+        font-size: 19px;
+    }
+    .cukkha_top_con p {
+        font-size: 18px;
+    }
+    .cukkha_top_con {
+        padding-bottom: 39px;
+    }
+    .chukka_item_t h5 {
+        font-size: 24px;
+    }
+    .tours_v_b a {
+        width: 255px;
+        height: 65px;
+        font-size: 22px;
+    }
+    .tour_page_content_area {
+        padding-top: 50px;
+        padding-bottom: 59px;
+    }
+    .ar_t_top p {
+        font-size: 18px;
+        margin-top: 24px;
+        width: 100%;
+    }
+    .ar_t_order_title h2 {
+        font-size: 27px;
+    }
+    .ar_t_order_title {
+        padding: 47px 0;
+    }
+    .ar_right_t_single {
+        margin-top: 19px;
+    }
+    .ar_right_t_single p {
+        font-size: 17px;
+    }
+    .review_area_design {
+        padding-top: 62px;
+        padding-bottom: 50px;
+    }
+    .more_review_c ul li a {
+        font-size: 12px;
+    }
+    .choice_sin {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 48%;
+                flex: 0 0 48%;
+    }
+    .freequantly_area_design {
+        padding: 57px 0;
+        position: relative;
+    }
+    .ocen_content p {
+        font-size: 18px;
+    }
+    .ocen_all_items h4, .ocen_all_items li {
+        font-size: 18px;
+        color: #000000;
+    }
+    .ocen_all_items ul li::before {
+        top: 10px;
+    }
+
+}
+
+@media all and (max-width: 575px){
+    .search_form {
+        width: 380px;
+        right: -259%;
+        top: 69px;
+    }
+    .banner_con h1 {
+        font-size: 30px;
+         margin: 12px 0;
+    }
+    .social_link {
+        display: none;
+    }
+    .review_item span {
+        font-size: 26px;
+    }
+    .review_item h3 {
+        font-size: 17px;
+    }
+    .section_padding {
+        padding: 60px 0;
+    }
+    .section_title h2 {
+        font-size: 35px;
+    }
+    .about_content p {
+        font-size: 18px;
+    }
+    .single_avan h3 {
+        font-size: 20px;
+    }
+    .country_name span {
+        font-size: 14px;
+    }
+    .ex_con p {
+        font-size: 19px;
+    }
+    .ex_con h3 {
+        font-size: 29px;
+    }
+    .ac_car_single {
+        width: 90%;
+        margin:0 auto ;
+    }
+    .g_title h1 {
+        font-size: 40px;
+    }
+    .group_event_specil {
+        padding-top: 52px;
+        padding-bottom: 52px;
+        overflow: hidden;
+    }
+    .g_spe_title h2 {
+        font-size: 29px;
+    }
+    .g_spe_title p {
+        font-size: 18px;
+        margin-top: 13px;
+    }
+    .even_title h3 {
+        font-size: 21px;
+    }
+    .sp_even {
+        padding-top: 28px;
+    }
+    .even_title {
+        padding-bottom: 33px;
+    }
+    .tours_v_b a {
+        width: 245px;
+        height: 61px;
+        font-size: 19px;
+    }
+    .tours_v_b {
+        left: 0;
+        margin: 0 auto;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .ar_right_t_single h2 a {
+        font-size: 27px;
+    }
+    .div_jamaica {
+        margin-top: 47px;
+    }
+    .div_jamaica h2 {
+        font-size: 22px;
+        margin-bottom: 52px;
+    }
+    .tour_chat {
+        margin-top: 43px;
+    }
+    .ar_tu_mar {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .single_free ul li {
+        font-size: 17px;
+        padding-left: 21px;
+    }
+    .single_free ul li::before {
+        width: 10px;
+        height: 10px;
+        background: #000;
+        left: 0;
+        top: 8px;
+    }
+    .avil span {
+        width: 53px;
+        height: 41px;
+        display: inline-block;
+        background: #08446D;
+        border-radius: 3px;
+    }
+    .avil p {
+        font-size: 14px;
+        color: #08446D;
+        font-weight: 600;
+        padding: 0 11px;
+        padding-right: 50px;
+    }
+    .avibility_date_even h2 {
+        font-size: 21px;
+        color: #000;
+        font-family: Roboto;
+        margin-bottom: 22px;
+    }
+    .avibility_date_even ul li a {
+        font-size: 14px;
+    }
+
+}
+
+@media all and (max-width:450px){
+    .logo a {
+        font-size: 17px;
+    }
+    .right_menu ul li a img {
+        max-height: 14px;
+    }
+    .right_menu ul li a {
+        margin-left: 14px;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+    }
+    .bars span {
+        width: 24px;
+        height: 1px;
+        background: #FFF;
+        display: block;
+        margin-bottom: 6px;
+    }
+    .bars {
+        margin: 7px 15px;
+        margin-right: 0;
+    }
+    .search_form {
+        width: 285px;
+        right: -322%;
+        top: 67px;
+    }
+    .search_form input {
+        background: transparent;
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 13px;
+    }
+    .search_form button {
+        padding: 0 10px;
+    }
+    .full_div button img {
+        width: 20px;
+    }
+    .single_banner {
+        padding-top: 62px;
+        padding-bottom: 112px;
+    }
+    .trip_button a {
+        width: 217px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .trip_button a {
+        padding:0;
+        font-size: 16px;
+    }
+    .trip_button a img {
+        height: 29px;
+    }
+    .first img {
+        height: 21px !important;
+    }
+    .trip_button {
+        width: 200px;
+    }
+    .banner_con h1 br {
+        display: none;
+    }
+    .section_title h2 {
+        font-size: 27px;
+    }
+    .section_title {
+        margin-bottom: 24px;
+    }
+    .section_padding {
+        padding: 43px 0;
+    }
+    .even_single p, .even_single li {
+        font-size: 17px;
+    }
+    .f_form_in {
+        width: 100%;
+    }
+    .ar_t_top p {
+        font-size: 16px;
+    }
+    .ar_t_order_title h2 {
+        font-size: 22px;
+    }
+    .ar_left_t_single p {
+        font-size: 15px;
+    }
+    .ar_right_t_single p {
+        font-size: 15px;
+    }
+    .footer_sub h3 {
+        font-size: 20px;
+    }
+    .choice_sin {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+    }
+    .ocen_all_items h4, .ocen_all_items li {
+        font-size: 16px;
+        color: #000000;
+    }
+
+}
+/* End All max width responsive */

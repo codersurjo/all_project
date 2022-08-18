@@ -1,0 +1,195 @@
+
+@media all and (max-width:1199px){
+    .header_area_design {
+        padding: 89px 0;
+        padding-bottom: 158px;
+    }
+    .introducing_area_design {
+        background: #151515;
+        padding-top: 149px;
+        padding-bottom: 453px;
+    }
+    .thank_you{
+        height:100vh;
+    }
+}
+
+
+@media all and (max-width:991px){
+    .header_area_design {
+        padding: 70px 0;
+        padding-bottom: 77px;
+    }
+    .banner_con {
+        padding-top: 87px;
+    }
+    .section_title h1 {
+        margin-bottom: 32px;
+    }
+    h1 {
+        font-size: 56px;
+    }
+    
+    .header_logo img {
+        height: 52px;
+    }
+    .slide_left {
+        display: none;
+    }
+    .slider_con_area {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+        position: relative;
+    }
+    .typo_con {
+        position: relative;
+        background: #000;
+        padding: 19px 50px;
+        width: 100%;
+        bottom: 0;
+        z-index: 1;
+    }
+    .book_now_all {
+        padding: 55px 50px;
+        margin-top: -350px;
+    }
+    .book_now_all h2 {
+        font-size: 48px;
+        padding-bottom: 50px;
+    }
+    .slider_area_design {
+        display: block;
+    }
+    .introducing_area_design {
+        background: #151515;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .book_now_all {
+        padding: 0;
+        margin-top: 0;
+    }
+    .book_now_area_design {
+        padding: 90px 0;
+        padding-bottom: 0 !important;
+    }
+    .footer_area_design {
+        padding: 86px 0;
+        padding-bottom: 0;
+    }
+    .submit_single {
+        margin-bottom: 74px;
+    }
+    .f_widget {
+        margin-bottom: 39px;
+    }
+    
+
+}
+
+
+@media all and (max-width:767px){
+    .section_title h1 {
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 47px;
+    }
+    .header_right ul li a {
+        font-size: 14px;
+        text-align: right;
+        display:block ;
+    }
+    .header_right ul li.phone a {
+        font-size: 13px;
+    }
+    .header_logo img {
+        height: 50px;
+    }
+    .header_social ul li a {
+        font-size: 16px;
+        margin-right: 26px;
+    }
+    .book_now_all h2 {
+        font-size: 37px;
+        padding-bottom: 50px;
+    }
+    .submit_single {
+        margin-top: 24px;
+        margin-bottom: 62px;
+    }
+    .footer_single {
+        margin-bottom: 40px;
+    }
+    
+}
+
+@media all and (max-width:575px){
+    h1 {
+        font-size: 38px;
+    }
+    .banner_con {
+        padding-top: 64px;
+    }
+    .header_right {
+        display: none;
+    }
+    .header_social {
+        display: none;
+    }
+    .header_all_content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .book_single {
+        display: block;
+    }
+    .book_single .form-group {
+        max-width: 100%;
+        position: relative;
+    }
+    .submit_single input {
+        width: 100%;
+    }
+    .submit_single {
+        margin-top: 24px;
+        margin-bottom: 37px;
+    }
+    .footer_area_design{
+        display: none;
+    }
+    .footer_area_design2{
+        display: block;
+    }
+}
+
+@media all and (max-width:450px){
+    .banner_con {
+        padding-top: 45px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .header_area_design {
+        padding: 70px 0;
+        padding-bottom: 36px;
+    }
+    .book_now_all h2 {
+        font-size: 32px;
+        padding-bottom: 50px;
+    }
+    .thank_you .banner_con {
+        padding-top: 112px;
+    }
+}

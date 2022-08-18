@@ -1,0 +1,305 @@
+/*===============================================
+Default css
+===============================================*/
+body{
+	margin:0;
+	padding:0;
+	font-family: 'HP Simplified W01';
+}
+@font-face {
+    font-family: 'HP Simplified W01';
+    src: url('../font/HPSimplifiedW01-Regular.woff2') format('woff2'),
+        url('../font/HPSimplifiedW01-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HP Simplified W01';
+    src: url('../font/HPSimplifiedW01-Light.woff2') format('woff2'),
+        url('../font/HPSimplifiedW01-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HP Simplified W01';
+    src: url('../font/HPSimplifiedW01-Bold.woff2') format('woff2'),
+        url('../font/HPSimplifiedW01-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+a{
+	margin:0;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:none;
+}
+input, button, textarea{
+	outline: none;
+}
+
+/*=================================================================
+				Start Main css
+=================================================================*/
+
+
+/*Banner Area css start*/
+.banner_area_design{
+	position: relative;
+	z-index: 1;
+}
+.b_position{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+.b_image{
+    width: 100%;
+}
+.banner_con{
+	text-align: center;
+	padding: 70px 0;
+}
+.banner_con img{
+	width: 100px;
+}
+.banner_con h1{
+	font-size: 42px;
+	color: #FFF;
+	font-weight: bold;
+	margin-top: 50px;
+}
+/*end Banner area css*/
+
+
+/*content area design*/
+.content_area_design{
+}
+.dekstop_img{
+	text-align: end;
+	position: relative;
+	z-index: 99;
+}
+.dekstop_img h4{
+	position: absolute;
+	font-size: 13px;
+	color: #000;
+	font-weight: 400;
+	-webkit-transform: rotate(-90deg);
+	    -ms-transform: rotate(-90deg);
+	        transform: rotate(-90deg);
+	text-align: center;
+	top: 37%;
+	bottom: 24%;
+}
+.dekstop_img img{
+	width: 97%;
+	margin-top: -143px;
+}
+.a_con_all{
+	padding: 60px 24px;
+}
+.a_con_all h2{
+	color: #0087C7;
+	font-weight: 400;
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.a_con_all h3{
+	font-size: 19px;
+	color: #000;
+	font-weight: 400;
+}
+.a_con_all p{
+	font-size: 16px;
+	color: #000;
+	font-weight: 400;
+	margin-top: 14px;
+}
+.middle{
+	margin-top: 60px;
+}
+.m_com{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.m_img{
+}
+.m_img img{
+	width: 70px;
+}
+.m_con{
+	padding-left: 27px;
+}
+.m_con h3{
+	color: #0087C7;
+	font-size: 19px;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+.m_con p{
+	font-size: 16px;
+	color: #000;
+}
+
+.bottom_top{
+	margin-top: 17px;
+}
+.laptop{
+	position: relative;
+}
+.laptop .a_con_all{
+	padding-top: 100px;
+	padding-left: 0;
+}
+.laptop_img{
+	position: absolute;
+	right: 0;
+	top: 10%;
+}
+.laptop_img img{
+	width: 552px;
+}
+.laptop_img h4{
+	position: absolute;
+	font-size: 13px;
+	color: #000;
+	-webkit-transform: rotate(19deg);
+	    -ms-transform: rotate(19deg);
+	        transform: rotate(19deg);
+	bottom: 17px;
+	left: 51px;
+}
+
+.end_bottom{
+	margin-top: 74px;
+}
+.single_com{
+	margin-bottom: 35px;
+}
+.bottom_and_con{
+}
+.b_con_con{
+	text-align: center;
+	border-top: 1px solid #cacaca;
+	padding: 60px 0;
+}
+.b_tn {
+	margin-bottom: 40px;
+}
+.b_tn a{
+	background: #000;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: bold;
+	padding: 14px 68px;
+	border-radius: 50px;
+	line-height: normal;
+	font-size: 18px;
+	-webkit-transition: 0-.2s;
+	-o-transition: 0-.2s;
+	transition: 0-.2s;
+}
+.b_tn a:hover{
+	opacity: 0.7;
+}
+.l_logo{
+	margin-bottom: 23px;
+}
+.l_logo a{
+}
+/*end Content area design*/
+
+.copyright_area{
+	padding-bottom: 60px;
+	text-align: center;
+}
+.copyright_area p{
+	font-size: 15px;
+	color: #000;
+}
+
+.form_area_design{
+	padding: 60px 0;
+	padding-bottom: 200px;
+}
+.form_title{
+}
+.form_title h2{
+	text-align: center;
+	color: #0085C5;
+	font-size: 24px;
+	line-height: normal;
+	font-weight: 400;
+}
+.form_area{
+	margin-top: 30px;
+}
+.single_form{
+	margin-bottom: 17px;
+}
+.single_form label{
+	display: block;
+	font-size: 18px;
+	color: #000;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+.single_form input{
+	width: 100%;
+	font-size: 18px;
+	padding: 12px 20px;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+.submit{
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.single_form input[type="submit"]{
+	
+	background: #0085C5;
+	outline: none;
+	border: none;
+	color: #FFF;
+	font-size: 22px;
+	font-family: 'HP Simplified W01';
+	width: 207px;
+	border-radius: 50px;
+	cursor: pointer;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.single_form input[type="submit"]:hover{
+	opacity: 0.7;
+}
+.check {
+	text-align: center;
+	margin-top: 25px;
+}
+.check .label{
+	font-size: 15px;
+	color: #000;
+}

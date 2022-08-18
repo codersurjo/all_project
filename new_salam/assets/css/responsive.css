@@ -1,0 +1,679 @@
+@media all and (max-width:1199px){
+	.main_menu_area ul li a {
+		font-size: 18px;
+		padding: 24px 12px;
+	}
+	.sin_img img {
+		width: 100%;
+		height: 370px;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+		-o-object-fit: cover;
+		   object-fit: cover;
+	}
+	.add_divided h2 {
+		font-size: 33px;
+	}
+	.div_con {
+		padding: 58px 25px;
+	}
+	.div_con h2 {
+		font-size: 33px;
+	}
+	.image_area img {
+		height: 250px;
+		-o-object-fit: cover;
+		   object-fit: cover;
+	}
+	.add_divided p {
+		font-size: 16px;
+	}
+	.button2 a {
+		font-size: 18px;
+	}
+	.div_con p {
+		font-size: 17px;
+		margin: 34px 0;
+	}
+	.watch_prev ul li a {
+		font-size: 17px;
+		padding: 10px 20px;
+	}
+	.buy_now h2 {
+		font-size: 22px !important;
+	}
+	.question a {
+		font-size: 17px;
+	}
+	.filter_button ul li {
+		display: inline;
+		padding: 0 6px;
+		font-size: 22px;
+		text-transform: uppercase;
+		font-weight: 700;
+		cursor: pointer;
+	}
+	.buy_now.buy_now2 h2 {
+		padding-right: 41px;
+		font-size: 47px !important;
+	}
+	.m_right_a_con h2 {
+		font-size: 45px;
+		margin-bottom: 25px;
+	}
+	.m_right_a_con p {
+		font-size: 18px;
+		line-height: 31px;
+		letter-spacing: 0.3px;
+	}
+	.buy_now4 ul:last-child li a span {
+		font-size: 18px;
+	}
+	.h {
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 18px;
+		font-weight: 700;
+	}
+	.buy_now4 ul li span {
+		font-size: 14px;
+	}
+	.buy_now4 ul:last-child li a {
+		font-size: 14px !important;
+	}
+	.buy_now4 ul li a img {
+		width: 83%;
+	}
+	.watch_prev3 ul li a {
+		font-size: 25px !important;
+	}
+	.date p {
+		font-size: 25px !important;
+		margin-bottom: 17px;
+	}
+	.button2 a {
+		width: 103%;
+		margin-top: 133px !important;
+	}
+}
+
+
+@media all and (min-width:992px){
+	.main_menu_area {
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+	.mobile_menu_area{
+		display: none !important;
+	}
+	.button {
+		display: block !important;
+	}
+}
+
+@media all and (max-width:991px){
+	.add_divided {
+		width: 100%;
+		padding:40px;
+	}
+	.lates_header h1 {
+		font-size: 35px;
+	}
+	.div_con {
+		width: 100%;
+		padding: 50px 23px;
+	}
+	.sin_img img {
+		height: 266px;
+	}
+	.title_d h2 {
+		font-size: 50px;
+	}
+	#prev, #prev1 {
+		left: 18px;
+	}
+	#next, #next {
+		right: 18px;
+	}
+	.nobile_bar {
+		cursor: pointer;
+		display: block;
+	}
+	.main_menu_area {
+		display: none;
+	}
+	.button {
+		display: none;
+	}
+	.header_area_design.footer .main_menu_area {
+		display: block !important;
+	}
+	.header_area_design.footer .button{
+		display: block !important;
+	}
+	.button a {
+		font-size: 16px;
+	}
+	.main_menu_area ul li a{
+		font-size: 16px;
+		padding: 24px 10px;
+	}
+	.header_area_design {
+		background: #070707;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		padding: 24px 29px;
+	}
+	.main_menu_area ul li{
+		font-size: 16px;
+		padding: 24px 5px;
+	}
+	.button a {
+		margin-left: 10px;
+	}
+	.div_con:first-child {
+		border-right: 3px solid #d94d47;
+		background: #2c2c2c;
+	}
+	.page_title h1 {
+		font-size: 58px;
+	}
+	.filter_button ul li {
+		padding: 0 3px;
+		font-size: 16px;
+	}
+	.page_karma h1 {
+		line-height: 60px;
+	}
+	.k_con_all h2 {
+		font-size: 35px;
+	}
+	.watch_k .watch_prev ul li a {
+		background: transparent;
+		font-size: 22px;
+	}
+	.kormo_k_all p {
+		font-size: 17px;
+		line-height: normal;
+	}
+	.sure_con h3 {
+		font-size: 20px;
+	}
+	.buy_now.buy_now2 {
+		display: block;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		margin-top: 49px;
+		text-align: center;
+	}
+	.l_c_con p {
+		font-size: 20px;
+		width: 100%;
+		margin-top: 10px;
+	}
+	.l_c_con {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: column-reverse;
+		        flex-direction: column-reverse;
+	}
+	.watch_prev3 ul li a {
+		font-size: 25px !important;
+		text-align: center !important;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.buy_now4 ul {
+		display: block;
+	}
+	.buy_now4 ul li {
+		width: 45% !important;
+		float: left;
+		overflow: hidden;
+		margin: 0 2%;
+		margin-bottom: 30px;
+	}
+	.buy_now4 ul li:last-child{
+		width:100% !important;
+		text-align: center;
+	}
+	.buy_now4 ul li:last-child a{
+		width: 280px;
+		margin: 0 auto;
+	}
+	#fave.col-lg-3 {
+		-ms-flex: 0 0 33.33%;
+		flex: 0 0 33.33%;
+		max-width: 33.33%;
+	}
+    .date p {
+		font-size: 16px !important;
+		margin-bottom: 17px;
+	}
+	.button2 a {
+		width: 103%;
+		margin-top: 23px !important;
+	}
+}
+
+
+@media all and (max-width:767px){
+	.title_d h2 {
+		font-size: 50px;
+	}
+	.header_area_design.footer {
+		display: block;
+		text-align: center;
+	}
+	.menu_area {
+		display: block;
+		text-align: center;
+	}
+	.main_menu_area ul li a {
+		font-size: 16px;
+		padding: 13px 10px;
+	}
+	.main_menu_area ul {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.image_area img {
+		height: 200px;
+	}
+	.filter_button {
+		display: block;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		color: #FFF;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		margin-bottom: 33px;
+	}
+	.all_filter_faves {
+		padding: 58px 0;
+		background: #000;
+	}
+	.filter_button h2 {
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 16px;
+		margin-bottom: 12px;
+		border-bottom: 1px solid #FFF;
+		display: inline-block;
+	}
+	.page_title h1 {
+		font-size: 46px;
+	}
+	.page_banner_area {
+		padding: 22px 0;
+	}
+	.page_karma h1 {
+		line-height: 49px;
+	}
+	.karmo_content {
+		padding: 55px 0;
+	}
+	.k_con_all h2 {
+		font-size: 27px;
+	}
+	.img_div img {
+		height: 257px;
+	}
+	.watch_k .watch_prev ul li a {
+		background: transparent;
+		font-size: 17px;
+	}
+	.watch_k .watch_prev ul li {
+		margin: 0;
+		margin-right: 10px;
+	}
+	.kormo_k_all p {
+		font-size: 15px;
+		line-height: normal;
+		margin-bottom: 20px;
+	}
+	.buy_now.buy_now2 h2 {
+		padding-right: 0;
+		font-size: 33px !important;
+	}
+	.l_c_con p {
+		font-size: 16px;
+		width: 100%;
+		margin-top: 10px;
+		text-align: center;
+	}
+	.logo_with_content {
+		background: #252626;
+		padding: 52px 0;
+	}
+	.buy_now4 ul li a img {
+		width: 77%;
+	}
+	.single_m_area {
+		background: #141414;
+		overflow: hidden;
+		padding: 74px 0;
+	}
+	#fave.col-lg-3 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+
+@media all and (max-width:575px){
+	.sin_img {
+		width: 100%;
+	}
+	.sin_img img {
+		height: auto;
+	}
+	.button2 a {
+		width: 100%;
+	}
+	.add_divided h2 {
+		font-size: 29px;
+	}
+	.add_divided p {
+		font-size: 15px;
+	}
+	.lates_header h1 {
+		font-size: 31px;
+	}
+	.div_con h2 {
+		font-size: 26px;
+	}
+	.s_ing {
+		width: 100%;
+	}
+	.s_ing img{
+		height: auto;
+	
+	}
+	.s_ing:nth-child(2) {
+		border-left: 2px solid #f8c319;
+		border-right: 2px solid #f8c319;
+		border-top: 0;
+		border-bottom: 0;
+	}
+	.watch_prev ul {
+		display: block;
+		text-align: center;
+	}
+	.watch_prev ul li {
+		margin: 23px 0;
+	}
+	.watch_prev ul li a {
+		text-align: center;
+		display: block;
+	}
+	.header_area_design {
+		padding: 7px 13px;
+	}
+	.title_d h2 {
+		font-size: 42px;
+	}
+	.flow_content h1 {
+		color: #f3b108;
+		font-size: 33px;
+		font-family: 'Homemade Apple', cursive;
+	}
+	.main_menu_area ul {
+		display: block;
+	}
+	.header_area_design {
+		padding: 7px 13px;
+	}
+	.main_menu_area ul li {
+		font-size: 16px;
+		padding: 1px 5px;
+	}
+	.search_form1 {
+		width: 100%;
+		text-align: right;
+		padding-right: 18px;
+		display: none;
+		position: absolute;
+		top: 70%;
+		z-index: 999999999;
+	}
+	.search_form1 input {
+		padding: 20px 20px;
+	}
+	.times1 {
+		top: 14px;
+	}
+	.button a {
+		margin-left: 0;
+		margin: 20px;
+	}
+	.main_menu_area ul li a {
+		font-size: 16px;
+		padding: 010px;
+	}
+	.header_area_design.footer {
+		display: block;
+		text-align: center;
+		padding: 40px 0;
+	}
+	.mobile_menu_area {
+		position: absolute;
+		background: #282828;
+		width: 100%;
+		padding: 34px 15px;
+	}
+	.menu_m ul ul ul li {
+		padding-left: 0;
+	}
+	.menu_m ul ul li {
+		padding-left: 0;
+		position: relative;
+		overflow: hidden;
+	}
+	.buy_now ul {
+		display: block;
+	}
+	.buy_now ul li a {
+		width: 211px;
+		margin: 0 auto;
+	}
+	.buy_now ul li {
+		margin: 0;
+		margin-bottom: 15px;
+	}
+	.buy_now ul:last-child li a {
+		width: 286px;
+	}
+	.buy_now ul:last-child li a span {
+		margin-top: 1px;
+	}
+	.watch_prev ul li a {
+		text-align: center;
+		display: block;
+		width: 230px;
+		margin: 0 auto;
+	}
+	.sin_img img {
+		height: 220px;
+	}
+	.image_area img {
+		height: 200px;
+	}
+	.question2 {
+		display: block;
+	}
+	.question2 a {
+		display: block;
+		margin-bottom: 15px;
+	}
+	.add_divided h1 {
+		font-size: 29px;
+	}
+	.add_divided h1 span {
+		font-size: 41px;
+		font-weight: 700;
+	}
+	.page_title h1 {
+		font-size: 30px;
+	}
+	.page_karma h1 {
+		line-height: 35px;
+	}
+	.watch_k .watch_prev ul {
+		display: block;
+	}
+	.watch_k .watch_prev ul li a {
+		background: transparent;
+		font-size: 17px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.buy_now.buy_now2 a {
+		width: 255px !important;
+	}
+	.img_div img {
+		height: 220px;
+	}
+	.m_right_a_con p {
+		font-size: 16px;
+		line-height: 25px;
+		letter-spacing: 0.3px;
+	}
+	.buy_now4 ul li {
+		width: 100% !important;
+		float: left;
+		overflow: hidden;
+		margin: 0 2%;
+		margin-bottom: 30px;
+	}
+	.buy_now4 ul:last-child li a {
+		width: 244px;
+		margin: 0 auto;
+	}
+	.buy_now4 ul li:last-child a {
+		width: 280px !important;
+		margin: 0 auto;
+	}
+	.m_right_a_con h2 {
+		font-size: 35px;
+		margin-bottom: 25px;
+		margin-top: 34px;
+	}
+	.watch_k .watch_prev ul li a {
+		background: transparent;
+		font-size: 17px !important;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.next_prev2 ul li a {
+		font-size: 15px;
+	}
+	.m_right_a_con h2 {
+		font-size: 26px;
+		margin-bottom: 25px;
+		margin-top: 34px;
+	}
+	.m_right_a_con p {
+		font-size: 15px;
+		line-height: 25px;
+		letter-spacing: 0.3px;
+	}
+	.buy_now4 ul li a {
+		width: 243px !important;
+		font-size: 18px;
+	}
+}
+
+
+@media all and (max-width:450px){
+	.buy_now ul {
+		display: block;
+	}
+	.header_top_2 h3 {
+		font-size: 14px;
+	}
+	.header_top_2 a {
+		font-size: 13px;
+	}
+	#fave.col-lg-3 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.buy_now ul li {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	/*.buy_now ul li a img {
+		width: 100%;
+	}*/
+	.add_divided {
+		width: 100%;
+		padding: 40px 21px;
+	}
+	.button2 a {
+		font-size: 14px;
+	}
+	.div_con h2 {
+		font-size: 21px;
+	}
+	.div_con p {
+		font-size: 15px;
+		margin: 34px 0;
+	}
+	.add_divided h2 {
+		font-size: 23px;
+	}
+	.title_d h2 {
+		font-size: 35px;
+	}
+	.next_prev ul li a {
+		top: 36%;
+	}
+	.buy_now ul:last-child li a {
+		width: 275px;
+		font-size: 18px;
+	}
+	.add_divided h1 {
+		font-size: 22px;
+	}
+	.img_div {
+		width: 100%;
+	}
+	.buy_now.buy_now2 a {
+		width: 226px !important;
+		height: 50px !important;
+	}
+ }

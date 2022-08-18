@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-MediumItalic.woff2') format('woff2'),
+        url('RoxboroughCF-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-Regular.woff2') format('woff2'),
+        url('RoxboroughCF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-LightItalic.woff2') format('woff2'),
+        url('RoxboroughCF-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-Medium.woff2') format('woff2'),
+        url('RoxboroughCF-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-RegularItalic.woff2') format('woff2'),
+        url('RoxboroughCF-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-Thin.woff2') format('woff2'),
+        url('RoxboroughCF-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-ThinItalic.woff2') format('woff2'),
+        url('RoxboroughCF-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+

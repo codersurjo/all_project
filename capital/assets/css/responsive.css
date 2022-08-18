@@ -1,0 +1,390 @@
+@media all and (max-width:1230px){
+	.menu_all ul li {
+		display: inline-block;
+		padding: 26px 7px;
+		position: relative;
+	}
+
+}
+
+
+@media all and (min-width: 1200px){
+	.menu_all ul{
+		display: block !important;
+	}
+}
+
+
+@media all and (max-width:1199px){
+	.menu_all ul li {
+		display: block;
+		padding: 6px 7px;
+		position: relative;
+	}
+	.menu_all ul li:after{
+		display: none;
+	}
+	.menu_all ul {
+		position: absolute;
+		background: #FFF;
+		width: 100%;
+		left: 0;
+		text-align: center;
+		z-index: 99999999999999;
+		padding: 35px 0;
+		border-radius: 0 0 10px 10px;
+		-webkit-box-shadow: 0 21px 14px rgba(0,0,0,0.1);
+		        box-shadow: 0 21px 14px rgba(0,0,0,0.1);
+		display: none;
+	}
+	.menu_all ul li a {
+		font-size: 16px;
+		color: #484242;
+		font-weight: 400;
+		-webkit-transition: 0.2s;
+		-o-transition: 0.2s;
+		transition: 0.2s;
+		display: inline-block;
+	}
+	.logo img {
+		margin-bottom: -13px;
+	}
+	#nav-icon3 {
+		display: block;
+	}
+}
+
+
+@media all and (max-width:991px){
+	.banner_area_design {
+		padding: 56px 0;
+	}
+	.banner_left {
+		padding-top: 45px;
+		padding-bottom: 40px;
+	}
+	.single_item img {
+		width: 140px;
+		height: auto;
+	}
+	.single_item p {
+		font-size: 15px;
+	}
+	.single_item h3 {
+		font-size: 27px;
+		margin: 13px 0;
+	}
+	.title_m {
+		text-align: center;
+		padding-top: 40px;
+		padding-bottom: 48px;
+	}
+	.title_m h2 {
+		font-size: 35px;
+	}
+	.a_items_area_design {
+		padding: 50px 0;
+		padding-bottom: 56px;
+	}
+	.apply h3 {
+		font-size: 27px;
+	}
+	.all_image a img {
+		max-width: 93px;
+	}
+	.services_content {
+		margin-top: 30px;
+	}
+	.services_content h2 {
+		font-size: 35px
+	}
+	
+	.flex3 {
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: column-reverse;
+		        flex-direction: column-reverse;
+		padding-top: 70px;
+	}
+	.services_area_design {
+		padding: 69px 0;
+		overflow: hidden;
+	}
+	.form_adress .services_content {
+		margin-top: 0;
+	}
+	.style2{
+		margin-top: 30px !important;
+	}
+	.footer_area_design {
+		text-align: center;
+		padding-top: 149px;
+		position: relative;
+		margin-top: 0;
+		z-index: 1;
+	}
+	.adress_link ul {
+		display: block;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+    }
+    .adress_link ul li {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+	}
+	.f_menu ul li a {
+		font-size: 15px;
+		color: #ffffff;
+		font-weight: 500;
+		font-family: "Roboto Slab";
+		padding: 8px 14px;
+		display: inline-block;
+	}
+}
+
+
+@media all and (max-width:767px){
+	.banner_left h1 {
+		font-size: 45px;
+	}
+	.banner_left ul {
+		margin-top: 44px;
+	}
+	.banner_loan h2 {
+		font-size: 32px;
+	}
+	.banner_loan h2 span {
+		font-size: 35px;
+	}
+	.all_image a img {
+		max-width: 70px;
+	}
+	.logo_all h3 {
+		font-size: 25px;
+	}
+	.copyright_all {
+		display: block;
+	}
+	.copyright_all img {
+		max-width: 131px;
+		width: 100%;
+		margin-bottom: 22px;
+	}
+}
+
+
+@media all and (max-width:575px){
+	.banner_area_design {
+		padding: 50px 0;
+	}
+	.banner_left {
+		padding-top: 0;
+		padding-bottom: 40px;
+	}
+	.banner_left h1 {
+		font-size: 42px;
+		margin-top: 15px;
+	}
+	.banner_left ul li {
+		font-size: 18px;
+	}
+	.banner_loan h2 {
+		font-size: 28px;
+		margin-bottom: 16px;
+	}
+	.banner_loan h2 span {
+		font-size: 30px;
+	}
+	.range label {
+		font-size: 16px;
+	}
+	.ra input {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 50%;
+		        flex: 0 0 50%;
+		max-width: 50%;
+		font-size: 16px;
+	}
+	.payment_item {
+		display: block;
+	}
+	.payment_item h1 {
+		font-size: 32px;
+		color: #1c98d7;
+		font-weight: 600;
+		position: relative;
+		margin-bottom: 24px;
+	}
+	.payment_item h1 sub {
+		font-size: 14px;
+		color: #000;
+		position: absolute;
+		left: 82px;
+		top: 27px;
+	}
+	.payment h3 {
+		font-size: 23px;
+		margin-bottom: 13px;
+	}
+	.s_button {
+		margin-top: 36px;
+	}
+	.single_item h3 {
+		font-size: 25px;
+		margin: 13px 0;
+	}
+	.apply h3 {
+		font-size: 24px;
+	}
+	.apply a {
+		width: 204px;
+		height: 47px;
+		font-size: 15px;
+	}
+	.a_items_area_design {
+		padding: 50px 0;
+		padding-bottom: 38px;
+	}
+	.single_item {
+		text-align: center;
+		padding: 0;
+	}
+	.single_item2 {
+		text-align: center;
+		padding: 20px;
+	}
+	.all_image {
+		display: block;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		margin-top: 25px;
+		text-align: center;
+	}
+	.all_image a {
+		margin: 0 12px;
+		margin-bottom: 23px;
+		display: inline-block;
+	}
+	.logo_all h3 {
+		font-size: 22px;
+	}
+	.logo_area_design {
+		background: #f5fafd;
+		padding: 36px 0;
+		padding-bottom: 22px;
+	}
+	.flex3 {
+		padding-top: 56px;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: column-reverse;
+		        flex-direction: column-reverse;
+	}
+	.next_prev ul li a {
+		width: 40px;
+		height: 40px;
+	}
+	.say_car .services_content p {
+		width: 89%;
+		font-size: 14px;
+	}
+	.services_content p {
+		font-size: 15px;
+	}
+	.services_content ul li {
+		font-size: 15px;
+	}
+	.form_adress {
+		margin-top: 52px;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.f_menu ul li a {
+		font-size: 14px;
+		color: #ffffff;
+		font-weight: 500;
+		font-family: "Roboto Slab";
+		padding: 8px 8px;
+		display: inline-block;
+	}
+}
+
+
+@media all and (max-width:450px){
+	.banner_left h1 {
+		font-size: 30px;
+		margin-top: 15px;
+	}
+	.banner_left ul li {
+		font-size: 15px;
+	}
+	.banner_left ul li::before {
+		top: 4px;
+	}
+	.banner_loan h2 {
+		font-size: 24px;
+		margin-bottom: 14px;
+	}
+	.banner_loan h2 span {
+		font-size: 26px;
+	}
+	.banner_right {
+		background: #FFF;
+		border-radius: 5px;
+		padding: 14px;
+		-webkit-box-shadow: 0 0px 21px rgba(0,0,0,0.2);
+		        box-shadow: 0 0px 21px rgba(0,0,0,0.2);
+	}
+	.banner_right {
+		padding: 14px;
+	}
+	.select select {
+		padding: 15px 8px;
+	}
+	.single_item h3 {
+		font-size: 23px;
+		margin: 10px 0;
+	}
+	.single_item p {
+		font-size: 14px;
+		width: 95%;
+	}
+	.apply h3 {
+		font-size: 20px;
+	}
+	.apply a {
+		width: 204px;
+		height: 46px;
+		font-size: 13px;
+	}
+	.services_content h2 {
+		font-size: 32px;
+	}
+	.services_area_design {
+		padding: 50px 0;
+		overflow: hidden;
+	}
+	.a_form_area {
+		background: #FFF;
+		border-radius: 5px;
+		padding: 14px;
+		-webkit-box-shadow: 0 0px 21px rgba(0,0,0,0.2);
+		        box-shadow: 0 0px 21px rgba(0,0,0,0.2);
+	}
+	}

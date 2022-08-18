@@ -1,0 +1,789 @@
+
+
+/*===============================================
+Default css
+===============================================*/
+body{
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernBlackItalic.woff2') format('woff2'),
+        url('../font/Novera-ModernBlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernBold.woff2') format('woff2'),
+        url('../font/Novera-ModernBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernBlack.woff2') format('woff2'),
+        url('../font/Novera-ModernBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernBoldItalic.woff2') format('woff2'),
+        url('../font/Novera-ModernBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernExtraBoldItalic.woff2') format('woff2'),
+        url('../font/Novera-ModernExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernExtraBold.woff2') format('woff2'),
+        url('../font/Novera-ModernExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernLight.woff2') format('woff2'),
+        url('../font/Novera-ModernLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernExtraLight.woff2') format('woff2'),
+        url('../font/Novera-ModernExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernExtraLightItalic.woff2') format('woff2'),
+        url('../font/Novera-ModernExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernMediumItalic.woff2') format('woff2'),
+        url('../font/Novera-ModernMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernMedium.woff2') format('woff2'),
+        url('../font/Novera-ModernMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernLightItalic.woff2') format('woff2'),
+        url('../font/Novera-ModernLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernSemiBold.woff2') format('woff2'),
+        url('../font/Novera-ModernSemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernSemiBoldItalic.woff2') format('woff2'),
+        url('../font/Novera-ModernSemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernRegular.woff2') format('woff2'),
+        url('../font/Novera-ModernRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernRegularItalic.woff2') format('woff2'),
+        url('../font/Novera-ModernRegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernUltraItalic.woff2') format('woff2'),
+        url('../font/Novera-ModernUltraItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernThin.woff2') format('woff2'),
+        url('../font/Novera-ModernThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Novera';
+    src: url('../font/Novera-ModernUltra.woff2') format('woff2'),
+        url('../font/Novera-ModernUltra.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-Bold.woff2') format('woff2'),
+        url('../font/RoxboroughCF-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-BoldItalic.woff2') format('woff2'),
+        url('../font/RoxboroughCF-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-Heavy.woff2') format('woff2'),
+        url('../font/RoxboroughCF-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF Extra';
+    src: url('../font/RoxboroughCF-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font/RoxboroughCF-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-HeavyItalic.woff2') format('woff2'),
+        url('../font/RoxboroughCF-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF Extra';
+    src: url('../font/RoxboroughCF-ExtraBold.woff2') format('woff2'),
+        url('../font/RoxboroughCF-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF Demi';
+    src: url('../font/RoxboroughCF-DemiBold.woff2') format('woff2'),
+        url('../font/RoxboroughCF-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF Demi';
+    src: url('../font/RoxboroughCF-DemiBoldItalic.woff2') format('woff2'),
+        url('../font/RoxboroughCF-DemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-LightItalic.woff2') format('woff2'),
+        url('../font/RoxboroughCF-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-Medium.woff2') format('woff2'),
+        url('../font/RoxboroughCF-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-Light.woff2') format('woff2'),
+        url('../font/RoxboroughCF-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-MediumItalic.woff2') format('woff2'),
+        url('../font/RoxboroughCF-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-Regular.woff2') format('woff2'),
+        url('../font/RoxboroughCF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-LightItalic.woff2') format('woff2'),
+        url('../font/RoxboroughCF-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-Medium.woff2') format('woff2'),
+        url('../font/RoxboroughCF-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-RegularItalic.woff2') format('woff2'),
+        url('../font/RoxboroughCF-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-Thin.woff2') format('woff2'),
+        url('../font/RoxboroughCF-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('../font/RoxboroughCF-ThinItalic.woff2') format('woff2'),
+        url('../font/RoxboroughCF-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+a{
+	margin:0;
+	text-decoration: none;
+	outline: none;
+}
+a:hover{
+	text-decoration:none;
+}
+
+input,
+textarea,
+button{
+	outline: none;
+}
+
+h1{
+	font-size: 72px;
+	font-family: 'Roxborough CF';
+}
+p{
+	font-size: 15px;
+	font-family: 'Novera';
+}
+
+/*=================================================================
+				Start Main css
+=================================================================*/
+
+/* Header area design  */
+.header_area_design{
+	padding: 130px 0;
+	padding-bottom: 158px;
+	overflow: hidden;
+}
+.header_all_content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.header_social{
+}
+.header_social ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.header_social ul li{
+}
+.header_social ul li a {
+	color: #919191;
+	display: inline-block;
+	font-size: 21px;
+	margin-right: 38px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.header_social ul li:last-child a{
+	margin-right: 0;
+}
+.header_social ul li:hover a{
+	opacity: 0.8;
+}
+.header_logo{
+}
+.header_logo img {
+	height: 70px;
+}
+.header_right{
+}
+.header_right ul li{
+}
+.header_right ul li a{
+	color: #919191;
+	font-family: 'Novera';
+	font-size: 15px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.header_right ul li.phone a {
+	font-size: 18px;
+}
+.header_right ul li:hover a{
+	opacity: 0.8;
+}
+.banner_con{
+	padding-top: 140px;
+	text-align: center;
+}
+.section_title{
+	text-align: center;
+}
+.section_title h1 {
+	color: #383838;
+	font-weight: 300;
+	line-height: normal;
+	margin-bottom: 40px;
+}
+.section_title p{
+	max-width: 770px;
+	width: 100%;
+	margin: 0 auto;
+}
+/* End Header area design  */
+
+/* slider_area_design */
+.slider_area_design{
+	overflow: inherit;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.slide_left {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 35%;
+	        flex: 0 0 35%;
+	max-width: 35%;
+	position: relative;
+	z-index: 1;;
+}
+.slide_left:after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.slide_left img {
+	width: 100%;
+}
+.slider_con_area{
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 65%;
+	        flex: 0 0 65%;
+	max-width: 65%;
+	position: relative;
+}
+.slider_item {
+	height: 100% !important;
+}
+.slider_item.owl-carousel .owl-stage-outer {
+	height: 100% !important;
+}
+.slider_item.owl-carousel .owl-stage {
+	height: 100%;
+}
+.slider_item .owl-item {
+	height: 100% !important;
+}
+.slider_item img{
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+.typo_con {
+	position: absolute;
+	background: #000;
+	padding: 19px 50px;
+	width: 391px;
+	bottom: -12%;
+	z-index: 1;
+}
+.typo_con a {
+	font-family: 'Roxborough CF';
+	font-size: 32px;
+	color: #FFF;
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+}
+.typo_con a i {
+	position: absolute;
+	right: -28px;
+	top: 10px;
+}
+.typo_con p{
+	color: #FFF;;
+}
+
+/* End slider_area_design */
+
+/* Iantroducing area design  */
+.introducing_area_design{
+	background: #151515;
+	padding-top: 247px;
+	padding-bottom: 530px;
+}
+.intro h1{
+	color: #FFF;
+}
+.intro p{
+	color: #FFF;
+}
+/* End Introducing area design  */
+
+
+/* Book now area design   */
+.book_now_area_design{
+}
+.book_now_all{
+	padding: 100px;
+	background: #FFF;
+	margin-top: -350px;
+}
+.book_now_all h2 {
+	font-family: 'Roxborough CF';
+	font-size: 56px;
+	padding-bottom: 80px;
+	text-align: center;
+	color: #151515;
+	font-weight: 300;
+}
+.book_now_form {
+}
+.book_single {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.book_single .form-group{
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 48%;
+	        flex: 0 0 48%;
+	max-width: 48%;
+	position: relative;
+}
+.book_single.car_single .form-group{
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	        flex: 0 0 100%;
+	max-width: 100%;
+}
+.book_single input,
+.book_single select{
+	font-family: 'Novera';
+	font-size: 15px;
+	color: #747474;
+	padding: 15px;
+	border: 1px solid transparent;
+	border-bottom: 1px solid #151515;
+	border-radius: 0 !important;
+}
+.car_single2 .form-control{
+	border: 1px solid #151515 !important;
+}
+input:focus,
+select:focus{
+	-webkit-box-shadow: none !important;
+	        box-shadow: none !important;
+	border: 1px solid transparent !important; 
+	border-bottom: 1px solid #151515 !important;
+}
+select:focus{
+	-webkit-box-shadow: none !important;
+	        box-shadow: none !important;
+	border: 1px solid  #151515 !important;
+}
+select.form-control:not([size]):not([multiple]) {
+	height: auto !important;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
+	border: 1px solid #151515;
+}
+.form-group label {
+	font-size: 14px;
+	font-family: 'Novera';
+	color: #919191;
+}
+.form-group {
+	margin-bottom: 31px !important;
+}
+.input-group-addon {
+	position: absolute;
+	right: 12px;
+	text-align: 10;
+	top: 19px;
+}
+.input-group-addon2 {
+	font-size: 25px;
+	position: absolute;
+	right: 12px;
+	top: 7px;
+	pointer-events: none;
+}
+.form-group label {
+	margin-bottom: 19px;
+}
+.submit_single {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 50px;
+	/* margin-bottom: 90px; */
+}
+.submit_single input{
+	width: 200px;
+	height: 54px;
+	background: #151515;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 14px;
+	color: #FFF;
+	font-family: Novera;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-weight: 500;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.submit_single input:hover{
+	opacity: 0.7;
+}
+.border_top{
+	border-bottom:1px solid #E9E9E9;
+}
+/* End Book now area design  */
+
+
+/* Footer area design  */
+.footer_area_design{
+	padding:104px 0;
+	padding-bottom: 19px;
+}
+.footer_single{
+}
+.footer_single img{
+	height: 60px;
+}
+.footer_single p {
+	font-size: 12px;
+	margin-top: 30px;
+}
+.f_widget{
+}
+.f_widget h4 {
+	font-family: Novera;
+	font-size: 14px;
+	color: #383838;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.div_all {
+	margin-top: 37px;
+}
+.s_d_sing {
+	margin-bottom: 20px;
+}
+
+.s_d_sing a,
+.s_d_sing p {
+	font-size: 19px;
+	color: #383838;
+	font-family: Novera;
+}
+.s_d_sing a b{
+	font-weight: 900;
+}
+.flow{
+}
+.flow ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.flow ul li a {
+	color: #383838;
+	font-size: 20px;
+	margin-right: 56px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.flow ul li:hover a{
+	opacity: 0.8;
+}
+.footer_area_design2{
+	background: #151515;
+	display: none;
+	padding-top: 61px;
+}
+.footer_area_design2 p,
+.footer_area_design2 a{
+	color: #FFF !important;
+}
+.copy p {
+	font-size: 14px;
+}
+.thank_you h1,
+.thank_you p,
+.thank_you a{
+	color: #FFF !important;
+}
+.banner_con.section_title.thank h1 {
+	margin-bottom: 0;
+}
+.banner_con.section_title.thank a {
+	font-family: Novera;
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 74px;
+	display: inline-block;
+}
+.banner_con.section_title.thank img {
+	height: 40px;
+	margin-bottom: 67px;
+}
+/* End Footer area design  */

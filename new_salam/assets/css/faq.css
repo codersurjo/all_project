@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+::selection {
+    /* color: red; */
+    background: #e4615563;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.header-one {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.faq-container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.hero-two {
+    background: #000;
+    width: 100%;
+    padding: 100px 0px;
+}
+.faq-header h2{
+    color: #000000;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 5.3rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    font-weight: bold;
+    text-shadow: 5px 2px 2px #fff;
+    padding: 20px 0px;
+    background-image: linear-gradient(to right bottom, #c33764, #e75353, #fc7a3d, #ffa720, #f4d60b);
+}
+
+/* ---------------COLLAPSE AND EXTEND MENU DESIGN */
+
+.faq-control {
+    list-style: none;
+    display: inline;
+    margin-bottom: 40px;
+} 
+.faq-control li{
+    display: inline-block;
+    border-bottom: 2px solid #E46255;
+    margin-bottom: 20px;
+    margin-left: 10px;
+} 
+.faq-control li span{
+    padding: 8px 12px;
+    color: #E56356;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin: 0px 10px 0px 0px;  */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+} 
+
+
+
+
+/* --------------------FAQ DESIGNS----------------- */
+div[aria-expanded="true"]{
+    
+    background-image: linear-gradient(90deg, #f4d60b 0%, #f4d60b 8px, #E56356 0px, #E56356 100%) !important;
+  }
+  div[aria-expanded="true"] h3 {
+      color: #fff;
+  }
+
+.card-header:hover{
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #f4d60b 0%, #f4d60b 8px, #E56356 0px, #E56356 100%) !important;
+  }
+
+
+div[aria-expanded="true"] span{
+    transform: rotate(90deg);
+}
+  .faq-icon {
+  content: '';
+    position: absolute;
+    left: 13px;
+    top: 25px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 14px solid #f4d60b;
+    border-bottom: 7px solid transparent;
+  }
+
+  .bg-dark {
+      background: #000 !important;
+  }
+
+  .faq-header__text {
+    color: #f4d60b;
+  }
+  .card-custom-border {
+      border-bottom: 1px solid #ccc !important;
+  }
+  
+.faq-answer {
+    font-family: 'Montserrat', sans-serif;
+    size: 18px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+
+
+
+
